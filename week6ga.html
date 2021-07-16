@@ -41,10 +41,14 @@ var srv_tz_os = -4, view_name = "go", user_cookie_name = "u_info";
 <script>
 		function loadGroundedEmbedVideoOutOfTavidByMattTheGoanimator() {
 			document.getElementById("morestuff").style.display = "block";
+			document.getElementById("vyond").style.display = "none";
+			document.getElementById("goanimate").style.display = "block";
 		}
 	
 	        function hideGroundedEmbedVideoOutOfTavidByMattTheGoanimator() {
                         document.getElementById("morestuff").style.display = "none";
+			document.getElementById("vyond").style.display = "block";
+			document.getElementById("goanimate").style.display = "none";
 		}
 		
 </script>
@@ -240,8 +244,8 @@ GA_googleFetchAds();
 
 			<ul class="site-languages">
                                 <p>If you are wondering why friday night funkin got on this github domain, click on the buttons in this section bellow you and it should show you the video called Tavid Fails The 11th Grade / Plays Friday Night Funkin During Summer School / Grounded.</p>
-				<li class="active" style="display: block">Showing Less</li>
-				<li class="active" style="display: none">Showing More</li>
+				<li class="active" id="goanimate" style="display: block">Showing Less</li>
+				<li class="active" id="vyond" style="display: none">Showing More</li>
 				<li><a href="javascript:loadGroundedEmbedVideoOutOfTavidByMattTheGoanimator()" style="display: block">Show more</a></li>
 				<li><a href="javascript:hideGroundedEmbedVideoOutOfTavidByMattTheGoanimator()" style="display: none">Show Less</a></li>
 			</ul>
